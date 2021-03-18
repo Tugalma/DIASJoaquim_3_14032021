@@ -1,0 +1,19 @@
+{
+  "name": "diasjoaquim_3_14032021",
+  "version": "1.0.0",
+  "description": "DIASJoaquim_3_14032021",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/style.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tugalma/DIASJoaquim_3_14032021.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tugalma/DIASJoaquim_3_14032021/issues"
+  },
+  "homepage": "https://github.com/Tugalma/DIASJoaquim_3_14032021#readme"
+}
