@@ -1,5 +1,129 @@
-body {
-  background-color: green;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*------Header---------*/
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+}
+header img {
+  width: auto;
+  height: 35px;
+}
+
+/*Champs input et containerInput*/
+.containerInput {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+}
+.containerInput i {
+  font-size: 20px;
+  margin-right: 8px;
+}
+.containerInput input {
+  width: 150px;
+  height: 25px;
+  background-color: #eaeaea;
+  border: 0px solid transparent;
+}
+.containerInput input::placeholder {
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+  font-family: "Montserrat";
+}
+
+/*Fin de l'INPUT*/
+/*--------Section Apres le Header ------*/
+.nextheader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px;
+  background-color: #F6F6F6;
+}
+.nextheader h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin: 0 0 40px 0;
+  text-align: center;
+}
+.nextheader div {
+  font-size: 1.225rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.nextheader .button1 {
+  width: 220px;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(175deg, #FF79DA 10%, #9356DC 95%);
+  color: white;
+}
+
+/*---Fonctionnement----*/
+.containerfiltro {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 15px;
+}
+.containerfiltro .filtro1 {
+  display: flex;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+}
+.containerfiltro .filtro2 {
+  display: flex;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+}
+.containerfiltro .filtro3 {
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.15);
+  display: flex;
+  border-radius: 20px;
+}
+
+/*-----Section Cards Restaurants------*/
+.containercards {
+  background-color: #f6f6f6;
+}
+.containercards article {
+  width: 100%;
+  background-color: withe;
+  border: 1px solid white;
+  border-radius: 12px 12px 0px 0px;
+}
+.containercards img {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+/*-Footer-*/
+footer {
+  background-color: #353535;
+}
+footer p {
+  color: white;
+}
+footer .titlefooter {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
